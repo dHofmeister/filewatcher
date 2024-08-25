@@ -4,3 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "*"
+clap = { version = "*", features = ["derive"] }
+notify-debouncer-mini = "*"
+tokio = { version = "*", features = ["full"] }
+log = "*"
+env_logger = "*"
+
+[dev-dependencies]
+assert_cmd = "*"
+predicates = "*"
+tempfile = "*"
