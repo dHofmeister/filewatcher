@@ -65,7 +65,7 @@ RUST_LOG=INFO cargo run -- -p '.'
 ```
 [2024-08-25T20:30:49Z INFO  filewatcher::paths] Full path: /home/dev/repos/filewatcher
 ```
-Changes in the mentioned folders will how be reflected in the logs:
+Changes in the mentioned folders will now be reflected in the logs:
 ```
 [2024-08-25T20:32:19Z INFO  filewatcher] Change detected: "/home/dev/repos/filewatcher/new_file"
 ```
