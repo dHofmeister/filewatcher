@@ -39,10 +39,6 @@ A simple [env_logger](https://crates.io/crates/env_logger) is used where it was 
 - Ratatui: Could be a nice interface for such a system; however, it would probably require more time to develop, and its benefits might not be too great.
 - Auto-diff: An output that immediately shows changes could be useful.
 
-## Summary
-
-This README outlines the core components and libraries used for building a cross-platform file system monitor in Rust. The notify crate is used for file monitoring, notify_debouncer_mini for debouncing events, and clap for the command-line interface. Error handling is managed using the anyhow crate. Future enhancements may include a Ratatui interface and tab auto-complete functionality.
-
 ## Usage
 ```bash
 cargo run -- --help
