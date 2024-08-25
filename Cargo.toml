@@ -13,5 +13,4 @@ env_logger = "*"
 
 [dev-dependencies]
 assert_cmd = "*"
-predicates = "*"
 tempfile = "*"
