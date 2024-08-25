@@ -1,4 +1,5 @@
 # FileWatcher
+[![Filewatcher](https://github.com/dHofmeister/filewatcher/actions/workflows/rust.yml/badge.svg)](https://github.com/dHofmeister/filewatcher/actions/workflows/rust.yml)
 
 A cross-platform file system monitor.
 
